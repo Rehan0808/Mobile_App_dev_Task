@@ -1,10 +1,7 @@
 //3. Check whether a number is a palindrome or not
 
-import 'dart:io';
-
 void main() {
-  stdout.write("Enter a number: ");
-  int num = int.parse(stdin.readLineSync()!);
+  int num = 121; 
   int originalNum = num;
   int reversed = 0;
 
